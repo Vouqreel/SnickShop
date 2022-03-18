@@ -225,10 +225,6 @@ a {
 .tooltip {
   position: relative;
   margin-left: 10px; }
-  @media (max-width: 576px) {
-    .tooltip {
-      margin-left: 0;
-      margin-right: 10px; } }
 
 .tooltip__button {
   border-radius: 100%;
