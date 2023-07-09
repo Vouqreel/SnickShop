@@ -118,7 +118,7 @@ const prodSlider = new Swiper('.modal-slider__container', {
 
 if (catalogList) {
     const loadProducts = (quantity = 5) => {
-        fetch('https://vouqreel.github.io/jsonapi/data.json')
+        fetch('https://vouqreel.github.io/SnickShop-JSON/data.json')
             .then((response) => {
                 return response.json();
             })
@@ -182,7 +182,7 @@ if (catalogList) {
     loadProducts(prodQuantity);
 
     const loadModalData = (id = 1) => {
-        fetch('https://vouqreel.github.io/jsonapi/data.json')
+        fetch('https://vouqreel.github.io/SnickShop-JSON/data.json')
             .then((response) => {
                 return response.json();
             })
@@ -331,7 +331,7 @@ const printQuantity = (num) => {
 }
 
 const loadCartData = (id = 1) => {
-    fetch('https://vouqreel.github.io/jsonapi/data.json')
+    fetch('https://vouqreel.github.io/SnickShop-JSON/data.json')
         .then((response) => {
             return response.json();
         })
